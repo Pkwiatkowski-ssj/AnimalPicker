@@ -8,6 +8,9 @@ public class AnimalPicker {
             System.out.println("Dog");
         } else if (choice.equals("Cat")) {
         System.out.println("Cat");
+}else {
+    System.out.println("Invalid Choice, Please type Dog or Cat");
 }
+
     }
 }
