@@ -8,15 +8,14 @@ public class AnimalPicker {
         while (!choice.equalsIgnoreCase("Dog") && !choice.equalsIgnoreCase("Cat")) {
             System.out.println("Please insert valid option. The choices are 'Dog',or 'cat' ");
             choice = scanner.nextLine().trim();
-
+        }
         if (choice.equals("Dog")){
-            System.out.println("Dog");
+            System.out.println("^..^      /\n/_/\\_____/\n   /\\   /\\\n  /  \\ /  \\\n ruff");
         } else if (choice.equals("Cat")) {
-        System.out.println("Cat");
+        System.out.println(" /\\_/\\\n( o.o )\n > ^ <\n meow");
 }else {
     System.out.println("Invalid Choice, Please type Dog or Cat");
 }
 
     }
-}
 }
